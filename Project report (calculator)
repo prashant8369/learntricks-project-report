@@ -1,0 +1,48 @@
+Project Report: Basic Calculator Program
+
+1. Project Overview
+   Title: Basic Calculator Program
+   Language: Python
+   Purpose: To create a simple calculator that performs basic arithmetic operations based on user input.
+
+2. Features
+   - Addition
+   - Subtraction
+   - Multiplication
+   - Division
+   - User input for operation selection and number input
+   - Continuous operation until user chooses to exit
+   - Error handling for division by zero
+
+3. Implementation Details
+   3.1 Functions:
+       - add(x, y): Performs addition
+       - subtract(x, y): Performs subtraction
+       - multiply(x, y): Performs multiplication
+       - divide(x, y): Performs division with error handling for division by zero
+
+   3.2 Main Program:
+       - Utilizes a while loop for continuous operation
+       - Presents a menu for operation selection
+       - Takes user input for operation choice and two numbers
+       - Calls appropriate function based on user choice
+       - Displays the result of the operation
+
+4. User Interface
+   - Console-based interface
+   - Clear menu options for operation selection
+   - Prompts for number inputs
+   - Displays results after each operation
+
+5. Error Handling
+   - Checks for invalid menu selections
+   - Handles division by zero error
+
+6. Future Enhancements
+   - Implement more advanced mathematical operations (e.g., exponents, square roots)
+   - Add memory function to store previous results
+   - Develop a graphical user interface (GUI)
+   - Implement floating-point precision control
+
+7. Conclusion
+   This basic calculator program successfully implements the four fundamental arithmetic operations. It provides a simple, user-friendly interface for performing calculations. The program structure allows for easy expansion and addition of new features in the future.
